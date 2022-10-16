@@ -6,7 +6,7 @@ const Products = (props) => {
         return (
             <div className="w-full p-4 md:w-1/2 lg:w-1/4" key={index}>
                 <a className="relative block h-48 overflow-hidden rounded">
-                    <img alt="ecommerce" className="block h-full w-full object-cover object-center cursor-pointer" src={`/img/${item.prodname}.jpg`} />
+                    <img alt="ecommerce" className="block h-full w-full object-cover object-center cursor-pointer" src={`./img/${item.prodname}.jpg`} />
                 </a>
                 <div className="mt-4">
                     <h3 className="title-font mb-1 text-xs tracking-widest text-gray-500">價格：{item.price}</h3>
